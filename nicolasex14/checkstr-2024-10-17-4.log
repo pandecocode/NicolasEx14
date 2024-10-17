@@ -1,0 +1,125 @@
+2024/10/17 09:13:35,669 [INFO] CHECKSTR - Start of binarise() execution with input: 12
+2024/10/17 09:13:35,696 [INFO] CHECKSTR - Start of binarise() execution with input: 6
+2024/10/17 09:13:35,696 [INFO] CHECKSTR - Start of binarise() execution with input: 3
+2024/10/17 09:13:35,697 [INFO] CHECKSTR - Start of binarise() execution with input: 1
+2024/10/17 09:13:35,697 [INFO] CHECKSTR - Start of binarise() execution with input: 0
+2024/10/17 09:13:35,698 [INFO] CHECKSTR - Return value of binarise() before return: ''
+2024/10/17 09:13:35,698 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,699 [INFO] CHECKSTR - Return value of binarise() before return: 1
+2024/10/17 09:13:35,699 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,700 [INFO] CHECKSTR - Return value of binarise() before return: 11
+2024/10/17 09:13:35,701 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,702 [INFO] CHECKSTR - Return value of binarise() before return: 011
+2024/10/17 09:13:35,702 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,702 [INFO] CHECKSTR - Return value of binarise() before return: 0011
+2024/10/17 09:13:35,703 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,703 [INFO] CHECKSTR - Return value of binarise() before return: 00011
+2024/10/17 09:13:35,704 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,704 [INFO] CHECKSTR - Return value of binarise() before return: 000011
+2024/10/17 09:13:35,704 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,785 [INFO] CHECKSTR - ChekcStr – Instantiated
+2024/10/17 09:13:35,786 [INFO] CHECKSTR - Start of convert() execution
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - Start of total() execution with input: 
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - Return value of total() before return: 0
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - End of total() execution
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - Start of binarise() execution with input: 0
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - Return value of binarise() before return: ''
+2024/10/17 09:13:35,787 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:13:35,788 [INFO] CHECKSTR - Return value of convert() before return: 
+2024/10/17 09:13:35,788 [INFO] CHECKSTR - End of convert() execution
+2024/10/17 09:13:35,788 [INFO] CHECKSTR - Start of total() execution with input: 
+2024/10/17 09:13:35,788 [INFO] CHECKSTR - Return value of total() before return: 0
+2024/10/17 09:13:35,788 [INFO] CHECKSTR - End of total() execution
+2024/10/17 09:13:35,791 [INFO] CHECKSTR - ChekcStr – Instantiated
+2024/10/17 09:13:35,794 [INFO] CHECKSTR - Start of total() execution with input: null
+2024/10/17 09:13:35,795 [ERROR] CHECKSTR - ChekcStr – Invalid Value: str is null
+2024/10/17 09:13:35,799 [INFO] CHECKSTR - ChekcStr – Instantiated
+2024/10/17 09:13:35,803 [INFO] CHECKSTR - Start of total() execution with input:  
+2024/10/17 09:13:35,804 [INFO] CHECKSTR - Start of total() execution with input: 
+2024/10/17 09:13:35,804 [INFO] CHECKSTR - Return value of total() before return: 0
+2024/10/17 09:13:35,805 [INFO] CHECKSTR - End of total() execution
+2024/10/17 09:13:35,805 [INFO] CHECKSTR - Return value of total() before return: 32
+2024/10/17 09:13:35,806 [INFO] CHECKSTR - End of total() execution
+2024/10/17 09:13:35,812 [INFO] CHECKSTR - ChekcStr – Instantiated
+2024/10/17 09:13:35,816 [INFO] CHECKSTR - Start of binarise() execution with input: -1
+2024/10/17 09:13:35,816 [ERROR] CHECKSTR - ChekcStr – Invalid Value: givenstrvalue is less than 0
+2024/10/17 09:13:35,817 [INFO] CHECKSTR - Return value of binarise() before return: ''
+2024/10/17 09:13:35,817 [INFO] CHECKSTR - End of binarise() execution
+2024/10/17 09:14:30,829 [INFO] CHECKSTR - ChekcStr – Instantiated
+ !!2024/10/17 09:14:30,847 [INFO] CHECKSTR - Start of total() execution with input: 0
+ !!2024/10/17 09:14:30,848 [INFO] CHECKSTR - Start of total() execution with input: 
+ !!2024/10/17 09:14:30,848 [INFO] CHECKSTR - Return value of total() before return: 0
+ !!2024/10/17 09:14:30,849 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,850 [INFO] CHECKSTR - Return value of total() before return: 48
+ !!2024/10/17 09:14:30,850 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,850 [INFO] CHECKSTR - Start of binarise() execution with input: 48
+ !!2024/10/17 09:14:30,851 [INFO] CHECKSTR - Start of binarise() execution with input: 24
+ !!2024/10/17 09:14:30,852 [INFO] CHECKSTR - Start of binarise() execution with input: 12
+ !!2024/10/17 09:14:30,852 [INFO] CHECKSTR - Start of binarise() execution with input: 6
+ !!2024/10/17 09:14:30,853 [INFO] CHECKSTR - Start of binarise() execution with input: 3
+ !!2024/10/17 09:14:30,853 [INFO] CHECKSTR - Start of binarise() execution with input: 1
+ !!2024/10/17 09:14:30,854 [INFO] CHECKSTR - Start of binarise() execution with input: 0
+ !!2024/10/17 09:14:30,854 [INFO] CHECKSTR - Return value of binarise() before return: ''
+ !!2024/10/17 09:14:30,855 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,855 [INFO] CHECKSTR - Return value of binarise() before return: 1
+ !!2024/10/17 09:14:30,856 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,856 [INFO] CHECKSTR - Return value of binarise() before return: 11
+ !!2024/10/17 09:14:30,857 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,857 [INFO] CHECKSTR - Return value of binarise() before return: 011
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - Return value of binarise() before return: 0011
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - Return value of binarise() before return: 00011
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,858 [INFO] CHECKSTR - Return value of binarise() before return: 000011
+ !!2024/10/17 09:14:30,859 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,931 [INFO] CHECKSTR - ChekcStr – Instantiated
+ !!2024/10/17 09:14:30,935 [INFO] CHECKSTR - Start of convert() execution
+ !!2024/10/17 09:14:30,935 [INFO] CHECKSTR - Start of total() execution with input: 
+ !!2024/10/17 09:14:30,935 [INFO] CHECKSTR - Return value of total() before return: 0
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - Start of binarise() execution with input: 0
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - Return value of binarise() before return: ''
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - Return value of convert() before return: 
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - End of convert() execution
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - Start of total() execution with input: 
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - Return value of total() before return: 0
+ !!2024/10/17 09:14:30,936 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,941 [INFO] CHECKSTR - ChekcStr – Instantiated
+ !!2024/10/17 09:14:30,944 [INFO] CHECKSTR - Start of total() execution with input: null
+ !!2024/10/17 09:14:30,945 [ERROR] CHECKSTR - ChekcStr – Invalid Value: str is null
+ !!2024/10/17 09:14:30,946 [INFO] CHECKSTR - ChekcStr – Instantiated
+ !!2024/10/17 09:14:30,947 [INFO] CHECKSTR - Start of total() execution with input:  
+ !!2024/10/17 09:14:30,948 [INFO] CHECKSTR - Start of total() execution with input: 
+ !!2024/10/17 09:14:30,948 [INFO] CHECKSTR - Return value of total() before return: 0
+ !!2024/10/17 09:14:30,948 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,948 [INFO] CHECKSTR - Return value of total() before return: 32
+ !!2024/10/17 09:14:30,948 [INFO] CHECKSTR - End of total() execution
+ !!2024/10/17 09:14:30,949 [INFO] CHECKSTR - ChekcStr – Instantiated
+ !!2024/10/17 09:14:30,951 [INFO] CHECKSTR - Start of binarise() execution with input: -1
+ !!2024/10/17 09:14:30,951 [ERROR] CHECKSTR - ChekcStr – Invalid Value: givenstrvalue is less than 0
+ !!2024/10/17 09:14:30,951 [INFO] CHECKSTR - Return value of binarise() before return: ''
+ !!2024/10/17 09:14:30,951 [INFO] CHECKSTR - End of binarise() execution
+ !!2024/10/17 09:15:39,891 [INFO] CHECKSTR - ChekcStr – Instantiated!!
+2024/10/17 09:15:39,939 [INFO] CHECKSTR - Start of total() execution with input: 0!!
+2024/10/17 09:15:39,939 [INFO] CHECKSTR - Start of total() execution with input: !!
+2024/10/17 09:15:39,940 [INFO] CHECKSTR - Return value of total() before return: 0!!
+2024/10/17 09:15:39,940 [INFO] CHECKSTR - End of total() execution!!
+2024/10/17 09:15:39,941 [INFO] CHECKSTR - Return value of total() before return: 48!!
+2024/10/17 09:15:39,942 [INFO] CHECKSTR - End of total() execution!!
+2024/10/17 09:15:39,942 [INFO] CHECKSTR - Start of binarise() execution with input: 48!!
+2024/10/17 09:15:39,942 [INFO] CHECKSTR - Start of binarise() execution with input: 24!!
+2024/10/17 09:15:39,943 [INFO] CHECKSTR - Start of binarise() execution with input: 12!!
+2024/10/17 09:15:39,943 [INFO] CHECKSTR - Start of binarise() execution with input: 6!!
+2024/10/17 09:15:39,944 [INFO] CHECKSTR - Start of binarise() execution with input: 3!!
+2024/10/17 09:15:39,944 [INFO] CHECKSTR - Start of binarise() execution with input: 1!!
+2024/10/17 09:15:39,945 [INFO] CHECKSTR - Start of binarise() execution with input: 0!!
+2024/10/17 09:15:39,945 [INFO] CHECKSTR - Return value of binarise() before return: ''!!
+2024/10/17 09:15:39,945 [INFO] CHECKSTR - End of binarise() execution!!
+2024/10/17 09:15:39,946 [INFO] CHECKSTR - Return value of binarise() before return: 1!!
+2024/10/17 09:15:39,947 [INFO] CHECKSTR - End of binarise() execution!!
+2024/10/17 09:15:39,947 [INFO] CHECKSTR - Return value of binarise() before return: 11!!
+2024/10/17 09:15:39,947 [INFO] CHECKSTR - End of binarise() execution!!
+2024/10/17 09:15:39,948 [INFO] CHECKSTR - Return value of binarise() before return: 011!!
+2024/10/17 09:15:39,948 [INFO] CHECKSTR - End of binarise() execution!!

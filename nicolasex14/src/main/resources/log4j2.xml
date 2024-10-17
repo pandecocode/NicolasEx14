@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="LoggerConfig">
+    <Appenders>
+        <File name="SIMPLEAPPFILE" fileName="src/main/resources/logs/simple_app.log">
+            <PatternLayout pattern="%level - %d{yyyy-MM-dd HH:mm:ss,SSS} - %C{1}.java - %msg%n"/>
+        </File>
+        <RollingFile name="ROLLINGFILE" fileName="src/main/resources/logs/traparray.log"
+                     filePattern="traparray-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%level: %m (%d{yyyy-MM-dd})%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+        <RollingFile name="CHECKSTRFILE" fileName="src/main/resources/logs/checkstr.log"
+                     filePattern="checkstr-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{yyyy/MM/dd HH:mm:ss,SSS} [%level] %c - %msg !!%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="LOGGERAPP" additivity="false" level="INFO">
+            <AppenderRef ref="SIMPLEAPPFILE"/>
+        </Logger>
+        <Logger name="LOGGERTRAP" additivity="false" level="INFO">
+            <AppenderRef ref="ROLLINGFILE"/>
+        </Logger>
+        <Logger name="CHECKSTR" additivity="false" level="INFO">
+            <AppenderRef ref="CHECKSTRFILE"/>
+        </Logger>
+        <Root level="INFO" additivity="false">
+            <AppenderRef ref="SIMPLEAPPFILE"/>
+            <AppenderRef ref="ROLLINGFILE"/>
+            <AppenderRef ref="CHECKSTRFILE"/>
+        </Root>
+    </Loggers>
+</Configuration>
