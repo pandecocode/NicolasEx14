@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 public class VendingMachine {
 
-	private static final Logger LOGGER = LogManager.getLogger(VendingMachine.class);
+	private static final Logger LOGGER = LogManager.getLogger("HTMLLOGGER");
 	private int totValue;
 	private int currValue;
 	private boolean enabled;

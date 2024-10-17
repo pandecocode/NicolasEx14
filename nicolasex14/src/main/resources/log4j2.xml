@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration name="LoggerConfig">
-
-<!-- 	<Appender name="htmlAppender" class="ch.qos.logback.core.FileAppender">
-		<file>vendo_log.html</file>
-		<encoder
-			class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-			<layout class="ch.qos.logback.classic.html.HTMLLayout">
-				<pattern>%thread%level%logger%msg</pattern>
-			</layout>
-		</encoder>
-	</Appender>
-  -->
-
     <Appenders>
         <File name="SIMPLEAPPFILE" fileName="src/main/resources/logs/simple_app.log">
             <PatternLayout pattern="%level - %d{yyyy-MM-dd HH:mm:ss,SSS} - %C{1}.java - %msg%n"/>
         </File>
+        
         <RollingFile name="ROLLINGFILE" fileName="src/main/resources/logs/traparray.log"
                      filePattern="traparray-%d{yyyy-MM-dd}-%i.log">
             <PatternLayout pattern="%level: %m (%d{yyyy-MM-dd})%n"/>
@@ -23,6 +12,7 @@
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
             </Policies>
         </RollingFile>
+        
         <RollingFile name="CHECKSTRFILE" fileName="src/main/resources/logs/checkstr.log"
                      filePattern="checkstr-%d{yyyy-MM-dd}-%i.log">
             <PatternLayout pattern="%d{yyyy/MM/dd HH:mm:ss,SSS} [%level] %c - %msg !!%n"/>
@@ -31,22 +21,35 @@
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
+        
+        <File name="HTMLFILE" fileName="src/main/resources/logs/vendo_log.html">
+            <HtmlLayout charset="UTF-8" title="Vending Machine Logs" contentType="text/html"/>
+        </File>
     </Appenders>
+    
     <Loggers>
         <Logger name="LOGGERAPP" additivity="false" level="INFO">
             <AppenderRef ref="SIMPLEAPPFILE"/>
         </Logger>
+        
         <Logger name="LOGGERTRAP" additivity="false" level="INFO">
             <AppenderRef ref="ROLLINGFILE"/>
         </Logger>
+        
         <Logger name="CHECKSTR" additivity="false" level="INFO">
             <AppenderRef ref="CHECKSTRFILE"/>
         </Logger>
+        
+        <Logger name="HTMLLOGGER" level="info" additivity="false">
+            <AppenderRef ref="HTMLFILE"/>
+        </Logger>
+        
         <Root level="INFO" additivity="false">
             <AppenderRef ref="SIMPLEAPPFILE"/>
             <AppenderRef ref="ROLLINGFILE"/>
             <AppenderRef ref="CHECKSTRFILE"/>
+            <AppenderRef ref="HTMLFILE"/>
         </Root>
     </Loggers>
-   
+    
 </Configuration>

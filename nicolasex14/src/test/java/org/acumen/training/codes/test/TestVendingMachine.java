@@ -9,7 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TestVendingMachine {
-	private static final Logger LOGGER = LogManager.getLogger(TestVendingMachine.class);
+	private static final Logger LOGGER = LogManager.getLogger("HTMLLOGGER");
 	VendingMachine vm;
 	
 	@BeforeEach
@@ -24,11 +24,11 @@ public class TestVendingMachine {
 	
 	@Test
 	public void testVendingMachine() {
-		LOGGER.info("TestVendingMachine started...");
+		LOGGER.info("Test Vending Machine started...");
 		
 		Coin penny = new Coin("Penny");
 		Coin nickle = new Coin("Nickle");
-		Coin invalid = new Coin("RandomInvalidCoin");
+		Coin invalid = new Coin("Random Invalid Coin");
 
 		vm.insert(penny);
 		vm.insert(nickle);
@@ -41,7 +41,7 @@ public class TestVendingMachine {
 		}
 
 		vm.returnCoins();
-		LOGGER.info("TestVendingMachine ended...");
+		LOGGER.info("Test Vending Machine ended...");
 	}
 
 }
