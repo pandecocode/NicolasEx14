@@ -14,13 +14,13 @@ public class ChekcStr {
 	public String convert(String str) {
 		logger.info("Start of convert() execution");
 		String result = binarise(total(str));
-		logger.info("Return value of convert() before return: %s".formatted(result));
+		logger.info("Return value of convert() before return: {}", result);
 		logger.info("End of convert() execution");
 		return result;
 	}
 
 	public int total(String str) {
-		logger.info("Start of total() execution with input: %s".formatted(str));
+		logger.info("Start of total() execution with input: {}", str);
 		if (str == null) {
 			logger.error("ChekcStr – Invalid Value: str is null");
 			throw new NullPointerException("Input string is null");
@@ -31,13 +31,13 @@ public class ChekcStr {
 			return 0;
 		}
 		int result = ((int) str.charAt(0)) + total(str.substring(1));
-		logger.info("Return value of total() before return: %d".formatted(result));
+		logger.info("Return value of total() before return: {}", result);
 		logger.info("End of total() execution");
 		return result;
 	}
 
 	public String binarise(int givenstrvalue) {
-		logger.info("Start of binarise() execution with input: %d".formatted(givenstrvalue));
+		logger.info("Start of binarise() execution with input: {}", givenstrvalue);
 		if (givenstrvalue < 0) {
 			logger.error("ChekcStr – Invalid Value: givenstrvalue is less than 0");
 			logger.info("Return value of binarise() before return: ''");
@@ -55,7 +55,7 @@ public class ChekcStr {
 		} else {
 			result = "0" + binarise(givenstrvalue / 2);
 		}
-		logger.info("Return value of binarise() before return: %s".formatted(result));
+		logger.info("Return value of binarise() before return: {}", result);
 		logger.info("End of binarise() execution");
 		return result;
 

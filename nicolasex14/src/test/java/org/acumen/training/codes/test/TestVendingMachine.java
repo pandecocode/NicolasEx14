@@ -1,6 +1,5 @@
 package org.acumen.training.codes.test;
 
-import org.acumen.training.codes.itemd.TrapArray;
 import org.acumen.training.codes.itemf.Coin;
 import org.acumen.training.codes.itemf.VendingMachine;
 import org.apache.logging.log4j.LogManager;
@@ -38,7 +37,7 @@ public class TestVendingMachine {
 		try {
 			vm.vend();
 		} catch (Exception e) {
-			LOGGER.error("Caught exception in vend: ", e);
+			LOGGER.error("Caught exception in vend: {}", e);
 		}
 
 		vm.returnCoins();

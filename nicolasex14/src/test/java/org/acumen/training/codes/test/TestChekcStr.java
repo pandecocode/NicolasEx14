@@ -20,26 +20,16 @@ import org.junit.jupiter.api.TestMethodOrder;
 @TestMethodOrder(OrderAnnotation.class)
 public class TestChekcStr {
 
-	    private ChekcStr check = new ChekcStr();
-
-	    @BeforeAll
-	    public static void init() {
-	        System.out.println("start");
-	    }
-
-	    @AfterAll
-	    public static void destroy() {
-	        System.out.println("end");
-	    }
+	    private ChekcStr check;
 
 	    @BeforeEach
 	    public void setup() {
-	        System.out.println("setup");
+	    	check = new ChekcStr();
 	    }
 
 	    @AfterEach
 	    public void teardown() {
-	        System.out.println("teardown");
+	        check = null;
 	    }
 
 	    @Order(1)

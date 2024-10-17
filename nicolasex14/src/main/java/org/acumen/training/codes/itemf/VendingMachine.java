@@ -25,7 +25,7 @@ public class VendingMachine {
 			LOGGER.error("illegal value");
 		} else {
 			currValue += value;
-			LOGGER.info("Current value = %d".formatted(currValue));
+			LOGGER.info("Current value = {}", currValue);
 			if (currValue >= COST) {
 				enabled = true;
 				LOGGER.info(" (sufficient credit) ");
@@ -55,9 +55,9 @@ public class VendingMachine {
 			currValue -= COST;
 			if (currValue == 0)
 				enabled = false;
-			LOGGER.info("Current value = %d".formatted(currValue));
+			LOGGER.info("Current value = {}", currValue);
 		} else {
-			LOGGER.warn("Not enough credit: add %d", (COST - currValue));
+			LOGGER.warn("Not enough credit: add {}", (COST - currValue));
 		}
 		if (currValue < 0) {
 			LOGGER.error("Error: negative credit!");

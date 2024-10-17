@@ -17,7 +17,7 @@ public class Coin {
 
 	public Coin(String coin) {
 		String toUpperCoin = coin.toUpperCase();
-		logger.info("Creating a coin instance for: %s".formatted(toUpperCoin));
+		logger.info("Creating a coin instance for: {}", toUpperCoin);
 		if (toUpperCoin.equals("PENNY"))
 			value = PENNY;
 		else if (toUpperCoin.equals("NICKEL"))
@@ -32,7 +32,7 @@ public class Coin {
 			value = SILVERDOLLAR;
 		else
 			value = INVALID;
-		logger.info("Coin created with value: %d".formatted(value));
+		logger.info("Coin created with value: {}", value);
 	}
 
 	public int getValue() {
